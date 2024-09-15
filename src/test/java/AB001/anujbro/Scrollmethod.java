@@ -22,7 +22,10 @@ public class Scrollmethod {
 		js.executeScript("window.scrollTo(0,1000)");
 		Thread.sleep(2000);
 		js.executeScript("window.scrollTo(0,2000)");
-		Thread.sleep(1000);
+		
+		
+		
+		//Thread.sleep(1000);
 		js.executeScript("window.scrollTo(0,500)");
 		driver.findElement(By.xpath("//a[@class='back-to-top']")).click();
 		
